@@ -1,0 +1,65 @@
+{
+    "DriveCar": {
+        "checkpoints": [
+            {
+                "steps": 70499000,
+                "file_path": "results\\StackedRays\\DriveCar\\DriveCar-70499000.onnx",
+                "reward": null,
+                "creation_time": 1713719342.5055864,
+                "auxillary_file_paths": [
+                    "results\\StackedRays\\DriveCar\\DriveCar-70499000.pt"
+                ]
+            },
+            {
+                "steps": 70999000,
+                "file_path": "results\\StackedRays\\DriveCar\\DriveCar-70999000.onnx",
+                "reward": 93.2857221194676,
+                "creation_time": 1713719926.935602,
+                "auxillary_file_paths": [
+                    "results\\StackedRays\\DriveCar\\DriveCar-70999000.pt"
+                ]
+            },
+            {
+                "steps": 71499000,
+                "file_path": "results\\StackedRays\\DriveCar\\DriveCar-71499000.onnx",
+                "reward": null,
+                "creation_time": 1713720529.9675608,
+                "auxillary_file_paths": [
+                    "results\\StackedRays\\DriveCar\\DriveCar-71499000.pt"
+                ]
+            },
+            {
+                "steps": 71999000,
+                "file_path": "results\\StackedRays\\DriveCar\\DriveCar-71999000.onnx",
+                "reward": null,
+                "creation_time": 1713721126.932711,
+                "auxillary_file_paths": [
+                    "results\\StackedRays\\DriveCar\\DriveCar-71999000.pt"
+                ]
+            },
+            {
+                "steps": 72448000,
+                "file_path": "results\\StackedRays\\DriveCar\\DriveCar-72448000.onnx",
+                "reward": null,
+                "creation_time": 1713721672.1538382,
+                "auxillary_file_paths": [
+                    "results\\StackedRays\\DriveCar\\DriveCar-72448000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 72448000,
+            "file_path": "results\\StackedRays\\DriveCar.onnx",
+            "reward": null,
+            "creation_time": 1713721672.1538382,
+            "auxillary_file_paths": [
+                "results\\StackedRays\\DriveCar\\DriveCar-72448000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.0.0",
+        "torch_version": "2.2.1+cu121"
+    }
+}

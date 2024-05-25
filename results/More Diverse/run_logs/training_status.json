@@ -1,0 +1,65 @@
+{
+    "DriveCar": {
+        "checkpoints": [
+            {
+                "steps": 22999000,
+                "file_path": "results\\More Diverse\\DriveCar\\DriveCar-22999000.onnx",
+                "reward": 7.19158925508198,
+                "creation_time": 1714710274.0501006,
+                "auxillary_file_paths": [
+                    "results\\More Diverse\\DriveCar\\DriveCar-22999000.pt"
+                ]
+            },
+            {
+                "steps": 23499000,
+                "file_path": "results\\More Diverse\\DriveCar\\DriveCar-23499000.onnx",
+                "reward": 7.543681208292643,
+                "creation_time": 1714710827.3142984,
+                "auxillary_file_paths": [
+                    "results\\More Diverse\\DriveCar\\DriveCar-23499000.pt"
+                ]
+            },
+            {
+                "steps": 23999000,
+                "file_path": "results\\More Diverse\\DriveCar\\DriveCar-23999000.onnx",
+                "reward": 7.534867664178212,
+                "creation_time": 1714711370.7288864,
+                "auxillary_file_paths": [
+                    "results\\More Diverse\\DriveCar\\DriveCar-23999000.pt"
+                ]
+            },
+            {
+                "steps": 24499000,
+                "file_path": "results\\More Diverse\\DriveCar\\DriveCar-24499000.onnx",
+                "reward": 7.573596318562825,
+                "creation_time": 1714711931.1866767,
+                "auxillary_file_paths": [
+                    "results\\More Diverse\\DriveCar\\DriveCar-24499000.pt"
+                ]
+            },
+            {
+                "steps": 24828000,
+                "file_path": "results\\More Diverse\\DriveCar\\DriveCar-24828000.onnx",
+                "reward": 7.543293237686157,
+                "creation_time": 1714712290.3628855,
+                "auxillary_file_paths": [
+                    "results\\More Diverse\\DriveCar\\DriveCar-24828000.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 24828000,
+            "file_path": "results\\More Diverse\\DriveCar.onnx",
+            "reward": 7.543293237686157,
+            "creation_time": 1714712290.3628855,
+            "auxillary_file_paths": [
+                "results\\More Diverse\\DriveCar\\DriveCar-24828000.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.0.0",
+        "torch_version": "2.2.1+cu121"
+    }
+}

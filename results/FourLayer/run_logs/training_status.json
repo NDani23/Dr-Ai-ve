@@ -1,0 +1,65 @@
+{
+    "DriveCar": {
+        "checkpoints": [
+            {
+                "steps": 148999388,
+                "file_path": "results\\FourLayer\\DriveCar\\DriveCar-148999388.onnx",
+                "reward": 71.71817140579223,
+                "creation_time": 1715228645.8149865,
+                "auxillary_file_paths": [
+                    "results\\FourLayer\\DriveCar\\DriveCar-148999388.pt"
+                ]
+            },
+            {
+                "steps": 149499691,
+                "file_path": "results\\FourLayer\\DriveCar\\DriveCar-149499691.onnx",
+                "reward": 82.09298753738403,
+                "creation_time": 1715229144.6001132,
+                "auxillary_file_paths": [
+                    "results\\FourLayer\\DriveCar\\DriveCar-149499691.pt"
+                ]
+            },
+            {
+                "steps": 149999990,
+                "file_path": "results\\FourLayer\\DriveCar\\DriveCar-149999990.onnx",
+                "reward": 74.89863011711522,
+                "creation_time": 1715229650.6767564,
+                "auxillary_file_paths": [
+                    "results\\FourLayer\\DriveCar\\DriveCar-149999990.pt"
+                ]
+            },
+            {
+                "steps": 150499747,
+                "file_path": "results\\FourLayer\\DriveCar\\DriveCar-150499747.onnx",
+                "reward": 96.7241523861885,
+                "creation_time": 1715230165.9280255,
+                "auxillary_file_paths": [
+                    "results\\FourLayer\\DriveCar\\DriveCar-150499747.pt"
+                ]
+            },
+            {
+                "steps": 150677248,
+                "file_path": "results\\FourLayer\\DriveCar\\DriveCar-150677248.onnx",
+                "reward": 74.94335034158495,
+                "creation_time": 1715230344.4556718,
+                "auxillary_file_paths": [
+                    "results\\FourLayer\\DriveCar\\DriveCar-150677248.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 150677248,
+            "file_path": "results\\FourLayer\\DriveCar.onnx",
+            "reward": 74.94335034158495,
+            "creation_time": 1715230344.4556718,
+            "auxillary_file_paths": [
+                "results\\FourLayer\\DriveCar\\DriveCar-150677248.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.0.0",
+        "torch_version": "2.2.1+cu121"
+    }
+}
