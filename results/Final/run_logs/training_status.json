@@ -2,58 +2,58 @@
     "DriveCar": {
         "checkpoints": [
             {
-                "steps": 40999000,
-                "file_path": "results\\Final\\DriveCar\\DriveCar-40999000.onnx",
-                "reward": 220.28205815951029,
-                "creation_time": 1716615944.9383376,
-                "auxillary_file_paths": [
-                    "results\\Final\\DriveCar\\DriveCar-40999000.pt"
-                ]
-            },
-            {
-                "steps": 41499000,
-                "file_path": "results\\Final\\DriveCar\\DriveCar-41499000.onnx",
+                "steps": 171999000,
+                "file_path": "results\\Final\\DriveCar\\DriveCar-171999000.onnx",
                 "reward": null,
-                "creation_time": 1716616355.4295,
+                "creation_time": 1716686777.6531057,
                 "auxillary_file_paths": [
-                    "results\\Final\\DriveCar\\DriveCar-41499000.pt"
+                    "results\\Final\\DriveCar\\DriveCar-171999000.pt"
                 ]
             },
             {
-                "steps": 41999000,
-                "file_path": "results\\Final\\DriveCar\\DriveCar-41999000.onnx",
-                "reward": 237.55971018473306,
-                "creation_time": 1716616713.405886,
+                "steps": 172499000,
+                "file_path": "results\\Final\\DriveCar\\DriveCar-172499000.onnx",
+                "reward": 218.83593916893005,
+                "creation_time": 1716687134.4646842,
                 "auxillary_file_paths": [
-                    "results\\Final\\DriveCar\\DriveCar-41999000.pt"
+                    "results\\Final\\DriveCar\\DriveCar-172499000.pt"
                 ]
             },
             {
-                "steps": 42499000,
-                "file_path": "results\\Final\\DriveCar\\DriveCar-42499000.onnx",
-                "reward": 232.905615846316,
-                "creation_time": 1716617084.3198605,
+                "steps": 172999000,
+                "file_path": "results\\Final\\DriveCar\\DriveCar-172999000.onnx",
+                "reward": 217.79903586705527,
+                "creation_time": 1716687505.8165777,
                 "auxillary_file_paths": [
-                    "results\\Final\\DriveCar\\DriveCar-42499000.pt"
+                    "results\\Final\\DriveCar\\DriveCar-172999000.pt"
                 ]
             },
             {
-                "steps": 42696000,
-                "file_path": "results\\Final\\DriveCar\\DriveCar-42696000.onnx",
-                "reward": 216.90023040771484,
-                "creation_time": 1716617249.23145,
+                "steps": 173499000,
+                "file_path": "results\\Final\\DriveCar\\DriveCar-173499000.onnx",
+                "reward": null,
+                "creation_time": 1716687925.6512454,
                 "auxillary_file_paths": [
-                    "results\\Final\\DriveCar\\DriveCar-42696000.pt"
+                    "results\\Final\\DriveCar\\DriveCar-173499000.pt"
+                ]
+            },
+            {
+                "steps": 173844000,
+                "file_path": "results\\Final\\DriveCar\\DriveCar-173844000.onnx",
+                "reward": 225.66808833678564,
+                "creation_time": 1716688171.8119419,
+                "auxillary_file_paths": [
+                    "results\\Final\\DriveCar\\DriveCar-173844000.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 42696000,
+            "steps": 173844000,
             "file_path": "results\\Final\\DriveCar.onnx",
-            "reward": 216.90023040771484,
-            "creation_time": 1716617249.23145,
+            "reward": 225.66808833678564,
+            "creation_time": 1716688171.8119419,
             "auxillary_file_paths": [
-                "results\\Final\\DriveCar\\DriveCar-42696000.pt"
+                "results\\Final\\DriveCar\\DriveCar-173844000.pt"
             ]
         }
     },

@@ -14,7 +14,7 @@ public class FollowPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector3(50, 800, 0);
+        transform.position = new Vector3(100, 800, 0);
         //transform.rotation = Quaternion.Slerp(transform.rotation, player.rotation, turnSmoothing);
         transform.LookAt(Vector3.zero);
     }

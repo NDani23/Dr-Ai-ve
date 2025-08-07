@@ -25,6 +25,11 @@ public class Player : Agent
 
     private float time = 0.0f;
 
+    public void setTrack(ref TrackScript track)
+    {
+        Track = track;
+    }
+
     public void StartDrive()
     {
         drive = true;
@@ -76,7 +81,7 @@ public class Player : Agent
 
         if (!drive) return;
 
-        AddReward(-10f / MaxStep);
+        if(MaxStep != 0) AddReward(-10f / MaxStep);
 
         if (carRB.velocity.magnitude < 10.0f)
         {

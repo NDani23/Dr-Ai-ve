@@ -5,12 +5,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using Unity.MLAgents;
 using UnityEngine.SceneManagement;
+using Unity.Mathematics;
 
 public class GameManager : MonoBehaviour
 {
 
     [SerializeField] Player player;
-    [SerializeField] Player Agent;
+    [SerializeField] Player agent;
     [SerializeField] GameObject gameUI;
     [SerializeField] GameObject menuUI;
     [SerializeField] Text timeText;
@@ -18,7 +19,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] Text agentLastTimeText;
     [SerializeField] Text playerBestTimeText;
     [SerializeField] Text agentBestTimeText;
+    [SerializeField] private GameObject app;
     public static GameManager Instance { get; private set; }
+
+    private TrackScript[] tracks;
+    private int currentTrackIdx;
 
     private float time = 0.0f;
 
@@ -34,6 +39,41 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         Instance = this;
+    }
+
+    void Start()
+    {
+        tracks = app.GetComponentsInChildren<TrackScript>();
+        currentTrackIdx = 0;
+
+
+        for (int i = 0; i < tracks.Length; i++)
+        {
+            tracks[i].gameObject.SetActive(i == currentTrackIdx ? true : false);
+        }
+
+        player.setTrack(ref tracks[currentTrackIdx]);
+        agent.setTrack(ref tracks[currentTrackIdx]);
+    }
+
+    public void setNextTrack()
+    {
+        tracks[currentTrackIdx].gameObject.SetActive(false);
+        currentTrackIdx = (currentTrackIdx + 1) % (tracks.Length);
+        tracks[currentTrackIdx].gameObject.SetActive(true);
+
+        player.setTrack(ref tracks[currentTrackIdx]);
+        agent.setTrack(ref tracks[currentTrackIdx]);
+    }
+
+    public void setPrevTrack()
+    {
+        tracks[currentTrackIdx].gameObject.SetActive(false);
+        currentTrackIdx = currentTrackIdx - 1 < 0 ? tracks.Length-1 : currentTrackIdx - 1;
+        tracks[currentTrackIdx].gameObject.SetActive(true);
+
+        player.setTrack(ref tracks[currentTrackIdx]);
+        agent.setTrack(ref tracks[currentTrackIdx]);
     }
 
     public void setLapTime(float lapTime, int driverType)
@@ -94,12 +134,17 @@ public class GameManager : MonoBehaviour
         game = true;
     }
 
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
     void Update()
     {
         if (Input.GetKey(KeyCode.W) && !drive && game)
         {
             player.StartDrive();
-            Agent.StartDrive();
+            agent.StartDrive();
             drive = true;           
         }
 

@@ -325,14 +325,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2993106741975259028}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.012915078, y: 0, z: 0, w: 0.9999167}
   m_LocalPosition: {x: -0.831, y: 0.56200004, z: -1.273}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7350665784075379838}
   m_Father: {fileID: 2803380412007809634}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 1.48, y: 0, z: 0}
 --- !u!146 &7812714680088878784
 WheelCollider:
   m_ObjectHideFlags: 0
@@ -1010,7 +1010,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 3000
+  MaxStep: 0
   carRB: {fileID: 2708735116050590898}
   carTransform: {fileID: 9063622097334725184}
   Track: {fileID: 0}
@@ -1059,7 +1059,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 2febc0658d2574147a89d7ffaeaca417, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: d93dcef54ae767f4181462b52a6cb6d9, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: DriveCar
